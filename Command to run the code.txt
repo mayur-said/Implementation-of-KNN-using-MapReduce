@@ -1,0 +1,1 @@
+python knn_runner_script.py -r local --minmax ./minmax.txt --Max_K 10 --test ./test.csv ./train.csv
