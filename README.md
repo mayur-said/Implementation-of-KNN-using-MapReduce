@@ -5,7 +5,7 @@
  To implement KNN using MapReduce, we have used the mrjob library in python. mrjob is one of the easiest ways to write python programs that run on Hadoop. 
 
  ## Steps to run this project
- 1. Run the code in the jupyter notebook to pre-process the data. After pre-processing the dataset, the code in the notebook will divide the dataset into three parts: training, validation, and testing, and save them to the working directories as CSV files. 
+ 1. Run the code in the jupyter notebook to pre-process the data. After pre-processing the dataset, the code in the notebook will divide the dataset into three parts: training, validation, and testing, and save them to the working directory as CSV files. 
  2. Run the knn_runner_script.py using the command "python knn_runner_script.py -r local --minmax ./minmax.txt --Max_K 10 --test ./test.csv ./train.csv". 
  3. After running the above script, we will get the accuracy, precision, and recall for each k value from 1 to Max_K. 
 
